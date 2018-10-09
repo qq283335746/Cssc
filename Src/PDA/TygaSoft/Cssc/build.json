@@ -1,0 +1,11 @@
+{
+     "android": {
+         "release": {
+             "keystore": "D:\\com-sw-cssc.keystore",
+             "storePassword": "sw-cssc",
+             "alias": "tygasoft",
+             "password" : "sw-cssc",
+             "keystoreType": ""
+         }
+     }
+ }

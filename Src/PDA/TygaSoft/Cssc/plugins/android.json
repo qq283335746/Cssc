@@ -1,0 +1,39 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.sw.cssc"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.sw.cssc"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.sw.cssc"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.sw.cssc"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.sw.cssc"
+        },
+        "cordova-sqlite-storage": {
+            "PACKAGE_NAME": "com.sw.cssc"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.sw.cssc"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.sw.cssc"
+        },
+        "cordova-plugin-x-toast": {
+            "PACKAGE_NAME": "com.sw.cssc"
+        }
+    },
+    "dependent_plugins": {}
+}

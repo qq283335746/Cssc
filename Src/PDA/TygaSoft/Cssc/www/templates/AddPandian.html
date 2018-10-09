@@ -1,0 +1,42 @@
+﻿<ion-view view-title="进入盘点">
+    <ion-nav-buttons side="right">
+        <a class="button f18"  href="#/app/Pandian">列表</a>
+    </ion-nav-buttons>
+    <ion-content>
+
+        <div class="fm">
+            <div class="row">
+                <div class="col col-33">单号：</div>
+                <div class="col col-67">
+                    {{ModelData.OrderCode}}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-33">仓库：</div>
+                <div class="col col-67">
+                    <a ng-click="onDlgWarehouse()" class="button button-small button-clear button-stable icon-right ion-ios-arrow-down">
+                        {{ModelData.Warehouse}}
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-33">时间：</div>
+                <div class="col col-67">
+                    <a ng-click="onDpDate(1)" class="button button-small button-clear button-stable icon-right ion-ios-arrow-down">
+                        {{ModelData.StartDate}}
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-33">操作人：</div>
+                <div class="col col-67">
+                    <input type="text" ng-model="ModelData.UserName" />
+                </div>
+            </div>
+        </div>
+        <div class="padding">
+            <button class="button button-block button-positive" ng-click="onSaveOrderInfo()">确定</button>
+        </div>
+
+    </ion-content>
+</ion-view>
